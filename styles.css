@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #111827;
+  background: #f8fafc;
+}
+
+.app {
+  max-width: 460px;
+  margin: 24px auto;
+  padding: 0 16px 24px;
+}
+
+.hud h1 {
+  margin: 0 0 8px;
+  font-size: 1.5rem;
+}
+
+.hud-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.metric {
+  margin: 0;
+}
+
+#board {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+button {
+  border: 1px solid #94a3b8;
+  background: #fff;
+  color: #0f172a;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+button:hover {
+  background: #f1f5f9;
+}
+
+.controls {
+  margin-top: 12px;
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+}
+
+.controls-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(72px, 1fr));
+  gap: 8px;
+  width: 100%;
+}
+
+.help {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #475569;
+}
